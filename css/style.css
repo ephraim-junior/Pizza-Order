@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+    background:url('../img/pizza.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+body {
+  background-color: transparent;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+  letter-spacing: 10px;
+  color: #aed100;
+  font-size: 600%;
+  font-weight: bold;
+  text-shadow: black 1px 1px 3px;
+}
+
+h6 {
+  color: white;
+  font-size: 800%;
+  text-shadow: black 2px 2px 3px;
+}
+
+h3 {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 200%;
+  text-shadow: black 1px 1px 3px;
+}
+
+h5 {
+  color: lightgrey;
+  letter-spacing: 5px;
+  font-size: 150%;
+  font-weight: bold;
+  text-shadow: black 1px 1px 3px;
+  font-size: 110%;
+}
+
+p {
+  font-size: 40px;
+  text-shadow: black 1px 1px 3px;
+}
+
+button {
+  width: 300px;
+  height: 75px;
+}
+
+.container {
+text-align: center;
+width: inherit;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.radio {
+  text-align: left;
+  padding: 10px;
+}
+
+.checkbox {
+  text-align: left;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+#intro {
+  margin-top: 150px;
+}
+
+#sizeMenu, #toppingMenu, #subtotal, #receipt, #thankYou, #modifyOrder, #delivery, #displayDeliveryInfo, #remove {
+  display: none;
+}
+
+#sizeMenu, #toppingMenu, #thankYou, #subtotal, #receipt, #modifyOrder, #delivery, #displayDeliveryInfo, #remove {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: inherit;
+  margin-top: 50px;
+  color: white;
+  font-size: 175%;
+}
+
+#orders, #ordersRemove {
+  text-align: left;
+}
+
+#bye {
+  color: #aed100;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #333;
+  text-align: center;
+}
